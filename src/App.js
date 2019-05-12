@@ -1,6 +1,6 @@
 // we import the React library to enable the use of JSX
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <li>Item 2</li>
       <li>Item 3</li>
     </ul>
-  );
+  )
 }
 
-export default App;
+export default App
