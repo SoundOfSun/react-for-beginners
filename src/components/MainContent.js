@@ -3,14 +3,15 @@ import React from 'react'
 
 function MainContent() {
 	return (
-		<nav>
-			<h3>This is my content...</h3>
-			<ul>
-				<li>First section</li>
-				<li>Second section</li>
-				<li>Third section</li>
-			</ul>
-		</nav>
+		<div>
+			<h3>To-do App</h3>
+			<input type="checkbox" name="task" value="cat" />
+			<p className="fake-task">Feed the cat</p><br></br>
+			<input type="checkbox" name="task" value="yoga" />
+			<p className="fake-task">Practice yoga</p><br></br>
+			<input type="checkbox" name="task" value="groceries" />
+			<p className="fake-task">Food shopping</p>
+		</div>
 	)
 }
 

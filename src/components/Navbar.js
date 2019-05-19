@@ -2,9 +2,10 @@
 import React from 'react'
 
 function Navbar() {
+	// The only thing we can add className to is elements, and not components!
 	return (
 		<nav>
-			<h1>This is my navigation bar...</h1>
+			<h1 className="header-txt">This is my navigation bar...</h1>
 		</nav>
 	)
 }

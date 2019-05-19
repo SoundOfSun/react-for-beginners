@@ -3,7 +3,7 @@ import React from 'react'
 
 function Footer() {
 	return (
-		<footer>
+		<footer className="footer-stuck">
 			<h3>This is my footer...</h3>
 		</footer>
 	)

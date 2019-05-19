@@ -1,5 +1,32 @@
 /*.App {
   text-align: center;
 }*/
+body { margin: 0; }
 
+.header-txt { 
+  height: 100px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.footer-stuck {
+  height: 100px;
+  background-color: #333;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.fake-task { display: inline; }
