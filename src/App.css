@@ -25,12 +25,18 @@ body { margin: 0; }
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
 
+.task-box { padding: 10px 0; }
+.task-box hr {margin-top: 15px; }
 .fake-task { display: inline; }
+
+.todo-list {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
 
 .footer-link a {
   color: #fff;

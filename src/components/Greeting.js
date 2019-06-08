@@ -1,7 +1,5 @@
 // we import the React library to enable the use of JSX
 import React from 'react'
-import ReactDOM from 'react-dom'
-
 
 // Example of inline styles:
 
