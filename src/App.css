@@ -31,3 +31,14 @@ body { margin: 0; }
 }
 
 .fake-task { display: inline; }
+
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-link a:link, 
+.footer-link a:hover,
+.footer-link a:focus,
+.footer-link a:active, 
+.footer-link a:visited { text-decoration: none; }
