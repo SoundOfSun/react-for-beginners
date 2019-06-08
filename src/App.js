@@ -6,6 +6,7 @@ import './App.css'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import MainContent from './components/MainContent'
+import Greeting from './components/Greeting'
 
 // We want this App "root" component to be a table of contents
 // --> filled with higher components (<Header />, <Main />, <Footer/>)
@@ -15,6 +16,7 @@ function App() {
     // A workaround is to wrap them in a parent <div>
     <div>
       <Navbar />
+      <Greeting />
       <MainContent />
       <Footer />
     </div>
